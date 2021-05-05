@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# DO NOT COMMIT MODEL FILES (license can be a very big problem)
+model/
+secret.json

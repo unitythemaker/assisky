@@ -1,0 +1,16 @@
+{
+  "name": "assisky-example",
+  "version": "1.0.0",
+  "description": "An example implementation of the Assisky STT module.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Halil Tezcan KARABULUT <unitythemaker@gmail.com>",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}

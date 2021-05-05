@@ -1,0 +1,30 @@
+{
+  "name": "assisky",
+  "version": "1.0.0",
+  "description": "A Discord Speech-to-Text module made with Vosk.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "cd example && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unitythemaker/assisky.git"
+  },
+  "keywords": [],
+  "author": "Halil Tezcan KARABULUT <unitythemaker@gmail.com>",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/unitythemaker/assisky/issues"
+  },
+  "homepage": "https://github.com/unitythemaker/assisky#readme",
+  "dependencies": {
+    "@suldashi/lame": "^1.2.5",
+    "fastest-validator": "^1.10.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-opus": "^0.3.3",
+    "vosk": "^0.3.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
