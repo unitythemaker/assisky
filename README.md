@@ -30,3 +30,12 @@ A Discord Speech-to-Text module made with Vosk. Yes, it works!
 
 # Example
 [Inspect the example folder.](./example/index.js)
+<br />
+
+**Note: In the example below, I've used the Turkish language model but you can use different models as you want.**
+<br />
+"bu bir denemedir" means "this is a test"
+<br />
+"merhaba dünya" means "hello world"
+
+![Example.gif](./img/Example.gif)
