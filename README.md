@@ -35,6 +35,15 @@ Returns an event for sending recognition results. [See example for details.](./e
 ## Assisky.stopListeningUser(userId)
 **userId**: A Discord user ID that joined to a voice channel and recognition for user has been started and progressing.
 
+## Assisky.stopListeningChannel(channelId)
+**userId**: A Discord channel ID, bot will stop listening everyone in the channel. Useful to run before leaving a VC.
+
+## Assisky.listeningList
+Bot returns an Object which contains current listening users' streams, connection, userId. ``{discordAudio,PCMToMP3,wavReader,rec,connection,userId}``
+
+## Assisky.config
+The config object that recieved from Assisky.setup() function.
+
 # Example
 [Inspect the example folder.](./example/index.js)
 <br />

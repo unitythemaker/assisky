@@ -71,7 +71,7 @@ function startListeningUser(userId, connection) {
 
     
     const discordAudio = connection.receiver.createStream(userId, { mode: 'pcm', end: 'manual' });
-    listeningList[userId] = {discordAudio,PCMToMP3,wavReader,rec,connection};
+    listeningList[userId] = {discordAudio,PCMToMP3,wavReader,rec,connection,userId};
 
     const waveStream = ffmpeg() // PCMToMP3 (lame.Encoder) MONO MP3 > WAV (waveStream)
         .input(PCMToMP3)
@@ -109,6 +109,16 @@ function stopListeningUser(userId) {
     return true;
 }
 
+function stopListeningChannel(channelId) {
+    const usersInTheVC = Object.values(listeningList).filter(({ connection }) => connection.channel.id == channelId);
+    usersInTheVC.forEach(({ userId }) => {
+        stopListeningUser(userId);
+    });
+}
+
 exports.setup = setup;
 exports.startListeningUser = startListeningUser;
 exports.stopListeningUser = stopListeningUser;
+exports.stopListeningChannel = stopListeningChannel;
+exports.listeningList = listeningList;
+exports.config = config;

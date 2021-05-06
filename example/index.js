@@ -37,6 +37,9 @@ client.on('message', message => {
         } else {
             message.reply('Join a VC first!');
         }
+    } else if (command === 'leave') {
+        Assisky.stopListeningChannel(message.member.voice.channel.id);
+        message.guild.me.voice.channel.leave();
     }
 });
 
