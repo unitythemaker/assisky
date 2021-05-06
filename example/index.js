@@ -7,8 +7,8 @@ const STTEmitter = Assisky.setup({
     // modelPath: "model",
 });
 
-STTEmitter.on('recognition', (userId, result) => {
-    console.log(userId, result);
+STTEmitter.on('recognition', (userId, result, guild, voiceChannel, _connection) => {
+    console.log(userId, result, guild.id, voiceChannel.id);
 });
 
 const Discord = require('discord.js');

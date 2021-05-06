@@ -1,0 +1,1 @@
+const Validator=require("fastest-validator"),v=new Validator,configSchema={voskLogLevel:{type:"number",integer:!0,min:-1},modelPath:{type:"string",min:1,max:255,optional:!0}};exports.isConfigValid=v.compile(configSchema);

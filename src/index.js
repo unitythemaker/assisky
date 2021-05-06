@@ -51,7 +51,7 @@ function startListeningUser(userId, connection) {
             const end_of_speech = rec.acceptWaveform(data);
             if (end_of_speech) {
                 const res = rec.result();
-                if (res.text) STTEmitter.emit('recognition', userId, res.text);
+                if (res.text) STTEmitter.emit('recognition', userId, res.text, connection.channel.guild, connection.channel, connection);
             }
         }
         rec.free();

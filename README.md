@@ -18,6 +18,7 @@ A Discord Speech-to-Text module made with Vosk. Yes, it works!
     "modelPath": "Path to downloaded model folder", // Default: ./model
 }
 ```
+Returns an event for sending recognition results. [See example for details.](./example/index.js)
 
 ## Assisky.startListeningUser(userId, discordVoiceConnection)
 **userId**: A Discord user ID that joined to a voice channel.
