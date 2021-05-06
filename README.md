@@ -1,6 +1,12 @@
 # assisky
 A Discord Speech-to-Text module made with Vosk. Yes, it works!
 
+## **IMPORTANT!**
+In Discord settings, if you are not in the Push-to-Talk mode in "Voice & Video" and you are in the Voice Activity mode, you must disable "Automatically determine input sensivity" option and set it to lowest value. Like in this screenshot:
+<br />
+
+![always transmit](./img/always_transmit.gif)
+
 # Installation
 1. Download a model. [You can click here to find models.](https://alphacephei.com/vosk/models)
 2. Extract the zip file to a folder.
