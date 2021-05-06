@@ -54,7 +54,6 @@ function startListeningUser(userId, connection) {
                 if (res.text) STTEmitter.emit('recognition', userId, res.text);
             }
         }
-        console.log("FINAL RESULT OF", userId, rec.finalResult(rec));
         rec.free();
     });
 

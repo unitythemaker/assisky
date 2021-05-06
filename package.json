@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/unitythemaker/assisky.git"
   },
-  "keywords": [],
+  "keywords": [
+    "discord.js",
+    "speech-to-text",
+    "vosk-api"
+  ],
   "author": "Halil Tezcan KARABULUT <unitythemaker@gmail.com>",
   "license": "GNU GPLv3",
   "bugs": {
@@ -18,10 +22,10 @@
   },
   "homepage": "https://github.com/unitythemaker/assisky#readme",
   "dependencies": {
+    "@discordjs/opus": "^0.5.0",
     "@suldashi/lame": "^1.2.5",
     "fastest-validator": "^1.10.1",
     "fluent-ffmpeg": "^2.1.2",
-    "node-opus": "^0.3.3",
     "vosk": "^0.3.25"
   },
   "devDependencies": {
