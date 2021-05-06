@@ -1,6 +1,6 @@
 {
   "name": "assisky",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Discord Speech-to-Text module made with Vosk.",
   "main": "dist/index.js",
   "scripts": {
