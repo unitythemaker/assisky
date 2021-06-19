@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Funitythemaker%2Fassisky.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Funitythemaker%2Fassisky?ref=badge_shield)
+
 # assisky
 A Discord Speech-to-Text module made with Vosk. Yes, it works!
 
@@ -6,7 +8,6 @@ In Discord settings, if you are not in the Push-to-Talk mode in "Voice & Video" 
 <br />
 
 ![always transmit](./img/always_transmit.gif)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Funitythemaker%2Fassisky.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Funitythemaker%2Fassisky?ref=badge_shield)
 
 # Installation
 1. Download a model. [You can click here to find models.](https://alphacephei.com/vosk/models)
